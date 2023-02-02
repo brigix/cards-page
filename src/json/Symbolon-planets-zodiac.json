@@ -1,0 +1,548 @@
+[
+	{
+		"id": 1,
+		"zodiac_1": "aries",
+		"planet_1": "mars",
+		"zodiac_2": "aries",
+		"planet_2": "mars"
+	},
+	{
+		"id": 2,
+		"zodiac_1": "taurus",
+		"planet_1": "venus",
+		"zodiac_2": "taurus",
+		"planet_2": "venus"
+	},
+	{
+		"id": 3,
+		"zodiac_1": "gemini",
+		"planet_1": "mercury",
+		"zodiac_2": "gemini",
+		"planet_2": "mercury"
+	},
+	{
+		"id": 4,
+		"zodiac_1": "cancer",
+		"planet_1": "moon",
+		"zodiac_2": "cancer",
+		"planet_2": "moon"
+	},
+	{
+		"id": 5,
+		"zodiac_1": "leo",
+		"planet_1": "sun",
+		"zodiac_2": "leo",
+		"planet_2": "sun"
+	},
+	{
+		"id": 6,
+		"zodiac_1": "virgo",
+		"planet_1": "mercury",
+		"zodiac_2": "virgo",
+		"planet_2": "mercury"
+	},
+	{
+		"id": 7,
+		"zodiac_1": "libra",
+		"planet_1": "venus",
+		"zodiac_2": "libra",
+		"planet_2": "venus"
+	},
+	{
+		"id": 8,
+		"zodiac_1": "scorpio",
+		"planet_1": "pluto",
+		"zodiac_2": "scorpio",
+		"planet_2": "pluto"
+	},
+	{
+		"id": 9,
+		"zodiac_1": "sagittarius",
+		"planet_1": "jupiter",
+		"zodiac_2": "sagittarius",
+		"planet_2": "jupiter"
+	},
+	{
+		"id": 10,
+		"zodiac_1": "capricorn",
+		"planet_1": "saturn",
+		"zodiac_2": "capricorn",
+		"planet_2": "saturn"
+	},
+	{
+		"id": 11,
+		"zodiac_1": "aquarius",
+		"planet_1": "uranus",
+		"zodiac_2": "aquarius",
+		"planet_2": "uranus"
+	},
+	{
+		"id": 12,
+		"zodiac_1": "pisces",
+		"planet_1": "neptune",
+		"zodiac_2": "pisces",
+		"planet_2": "neptune"
+	},
+	{
+		"id": 13,
+		"zodiac_1": "cancer",
+		"planet_1": "moon",
+		"zodiac_2": "aries",
+		"planet_2": "mars"
+	},
+	{
+		"id": 14,
+		"zodiac_1": "cancer",
+		"zodiac_2": "taurus",
+		"planet_1": "moon",
+		"planet_2": "venus"
+	},
+	{
+		"id": 15,
+		"zodiac_1": "cancer",
+		"zodiac_2": "gemini",
+		"planet_1": "moon",
+		"planet_2": "mercury"
+	},
+	{
+		"id": 16,
+		"zodiac_1": "cancer",
+		"zodiac_2": "leo",
+		"planet_1": "moon",
+		"planet_2": "sun"
+	},
+	{
+		"id": 17,
+		"zodiac_1": "cancer",
+		"zodiac_2": "virgo",
+		"planet_1": "moon",
+		"planet_2": "mercury"
+	},
+	{
+		"id": 18,
+		"zodiac_1": "cancer",
+		"zodiac_2": "libra",
+		"planet_1": "moon",
+		"planet_2": "venus"
+	},
+	{
+		"id": 19,
+		"zodiac_1": "cancer",
+		"zodiac_2": "scorpio",
+		"planet_1": "moon",
+		"planet_2": "pluto"
+	},
+	{
+		"id": 20,
+		"zodiac_1": "cancer",
+		"zodiac_2": "sagittarius",
+		"planet_1": "moon",
+		"planet_2": "jupiter"
+	},
+	{
+		"id": 21,
+		"zodiac_1": "cancer",
+		"zodiac_2": "capricorn",
+		"planet_1": "moon",
+		"planet_2": "saturn"
+	},
+	{
+		"id": 22,
+		"zodiac_1": "cancer",
+		"zodiac_2": "aquarius",
+		"planet_1": "moon",
+		"planet_2": "uranus"
+	},
+	{
+		"id": 23,
+		"zodiac_1": "cancer",
+		"zodiac_2": "pisces",
+		"planet_1": "moon",
+		"planet_2": "neptune"
+	},
+	{
+		"id": 24,
+		"zodiac_1": "leo",
+		"zodiac_2": "aries",
+		"planet_1": "sun",
+		"planet_2": "mars"
+	},
+	{
+		"id": 25,
+		"zodiac_1": "leo",
+		"zodiac_2": "taurus",
+		"planet_1": "sun",
+		"planet_2": "venus"
+	},
+	{
+		"id": 26,
+		"zodiac_1": "leo",
+		"zodiac_2": "gemini",
+		"planet_1": "sun",
+		"planet_2": "mercury"
+	},
+	{
+		"id": 27,
+		"zodiac_1": "leo",
+		"zodiac_2": "virgo",
+		"planet_1": "sun",
+		"planet_2": "mercury"
+	},
+	{
+		"id": 28,
+		"zodiac_1": "leo",
+		"zodiac_2": "libra",
+		"planet_1": "sun",
+		"planet_2": "venus"
+	},
+	{
+		"id": 29,
+		"zodiac_1": "leo",
+		"zodiac_2": "scorpio",
+		"planet_1": "sun",
+		"planet_2": "pluto"
+	},
+	{
+		"id": 30,
+		"zodiac_1": "leo",
+		"zodiac_2": "sagittarius",
+		"planet_1": "sun",
+		"planet_2": "jupiter"
+	},
+	{
+		"id": 31,
+		"zodiac_1": "leo",
+		"zodiac_2": "capricorn",
+		"planet_1": "sun",
+		"planet_2": "saturn"
+	},
+	{
+		"id": 32,
+		"zodiac_1": "leo",
+		"zodiac_2": "aquarius",
+		"planet_1": "sun",
+		"planet_2": "uranus"
+	},
+	{
+		"id": 33,
+		"zodiac_1": "leo",
+		"zodiac_2": "pisces",
+		"planet_1": "sun",
+		"planet_2": "neptune"
+	},
+	{
+		"id": 34,
+		"zodiac_1": "aries",
+		"zodiac_2": "taurus",
+		"planet_1": "mars",
+		"planet_2": "venus"
+	},
+	{
+		"id": 35,
+		"zodiac_1": "aries",
+		"zodiac_2": "gemini",
+		"planet_1": "mars",
+		"planet_2": "mercury"
+	},
+	{
+		"id": 36,
+		"zodiac_1": "aries",
+		"zodiac_2": "virgo",
+		"planet_1": "mars",
+		"planet_2": "mercury"
+	},
+	{
+		"id": 37,
+		"zodiac_1": "aries",
+		"zodiac_2": "libra",
+		"planet_1": "mars",
+		"planet_2": "venus"
+	},
+	{
+		"id": 38,
+		"zodiac_1": "aries",
+		"zodiac_2": "scorpio",
+		"planet_1": "mars",
+		"planet_2": "pluto"
+	},
+	{
+		"id": 39,
+		"zodiac_1": "aries",
+		"zodiac_2": "sagittarius",
+		"planet_1": "mars",
+		"planet_2": "jupiter"
+	},
+	{
+		"id": 40,
+		"zodiac_1": "aries",
+		"zodiac_2": "capricorn",
+		"planet_1": "mars",
+		"planet_2": "saturn"
+	},
+	{
+		"id": 41,
+		"zodiac_1": "aries",
+		"zodiac_2": "aquarius",
+		"planet_1": "mars",
+		"planet_2": "uranus"
+	},
+	{
+		"id": 42,
+		"zodiac_1": "aries",
+		"zodiac_2": "pisces",
+		"planet_1": "mars",
+		"planet_2": "neptune"
+	},
+	{
+		"id": 43,
+		"zodiac_1": "taurus",
+		"zodiac_2": "gemini",
+		"planet_1": "venus",
+		"planet_2": "mercury"
+	},
+	{
+		"id": 44,
+		"zodiac_1": "taurus",
+		"zodiac_2": "virgo",
+		"planet_1": "venus",
+		"planet_2": "mercury"
+	},
+	{
+		"id": 45,
+		"zodiac_1": "taurus",
+		"zodiac_2": "libra",
+		"planet_1": "venus",
+		"planet_2": "venus"
+	},
+	{
+		"id": 46,
+		"zodiac_1": "taurus",
+		"zodiac_2": "scorpio",
+		"planet_1": "venus",
+		"planet_2": "pluto"
+	},
+	{
+		"id": 47,
+		"zodiac_1": "taurus",
+		"zodiac_2": "sagittarius",
+		"planet_1": "venus",
+		"planet_2": "jupiter"
+	},
+	{
+		"id": 48,
+		"zodiac_1": "taurus",
+		"zodiac_2": "capricorn",
+		"planet_1": "venus",
+		"planet_2": "saturn"
+	},
+	{
+		"id": 49,
+		"zodiac_1": "taurus",
+		"zodiac_2": "aquarius",
+		"planet_1": "venus",
+		"planet_2": "uranus"
+	},
+	{
+		"id": 50,
+		"zodiac_1": "taurus",
+		"zodiac_2": "pisces",
+		"planet_1": "venus",
+		"planet_2": "neptune"
+	},
+	{
+		"id": 51,
+		"zodiac_1": "gemini",
+		"zodiac_2": "virgo",
+		"planet_1": "mercury",
+		"planet_2": "mercury"
+	},
+	{
+		"id": 52,
+		"zodiac_1": "gemini",
+		"zodiac_2": "libra",
+		"planet_1": "mercury",
+		"planet_2": "venus"
+	},
+	{
+		"id": 53,
+		"zodiac_1": "gemini",
+		"zodiac_2": "scorpio",
+		"planet_1": "mercury",
+		"planet_2": "pluto"
+	},
+	{
+		"id": 54,
+		"zodiac_1": "gemini",
+		"zodiac_2": "sagittarius",
+		"planet_1": "mercury",
+		"planet_2": "jupiter"
+	},
+	{
+		"id": 55,
+		"zodiac_1": "gemini",
+		"zodiac_2": "capricorn",
+		"planet_1": "mercury",
+		"planet_2": "saturn"
+	},
+	{
+		"id": 56,
+		"zodiac_1": "gemini",
+		"zodiac_2": "aquarius",
+		"planet_1": "mercury",
+		"planet_2": "uranus"
+	},
+	{
+		"id": 57,
+		"zodiac_1": "gemini",
+		"zodiac_2": "pisces",
+		"planet_1": "mercury",
+		"planet_2": "neptune"
+	},
+	{
+		"id": 58,
+		"zodiac_1": "virgo",
+		"zodiac_2": "libra",
+		"planet_1": "mercury",
+		"planet_2": "venus"
+	},
+	{
+		"id": 59,
+		"zodiac_1": "virgo",
+		"zodiac_2": "scorpio",
+		"planet_1": "mercury",
+		"planet_2": "pluto"
+	},
+	{
+		"id": 60,
+		"zodiac_1": "virgo",
+		"zodiac_2": "sagittarius",
+		"planet_1": "mercury",
+		"planet_2": "jupiter"
+	},
+	{
+		"id": 61,
+		"zodiac_1": "virgo",
+		"zodiac_2": "capricorn",
+		"planet_1": "mercury",
+		"planet_2": "saturn"
+	},
+	{
+		"id": 62,
+		"zodiac_1": "virgo",
+		"zodiac_2": "aquarius",
+		"planet_1": "mercury",
+		"planet_2": "uranus"
+	},
+	{
+		"id": 63,
+		"zodiac_1": "virgo",
+		"zodiac_2": "pisces",
+		"planet_1": "mercury",
+		"planet_2": "neptune"
+	},
+	{
+		"id": 64,
+		"zodiac_1": "libra",
+		"zodiac_2": "scorpio",
+		"planet_1": "venus",
+		"planet_2": "pluto"
+	},
+	{
+		"id": 65,
+		"zodiac_1": "libra",
+		"zodiac_2": "sagittarius",
+		"planet_1": "venus",
+		"planet_2": "jupiter"
+	},
+	{
+		"id": 66,
+		"zodiac_1": "libra",
+		"zodiac_2": "capricorn",
+		"planet_1": "venus",
+		"planet_2": "saturn"
+	},
+	{
+		"id": 67,
+		"zodiac_1": "libra",
+		"zodiac_2": "aquarius",
+		"planet_1": "venus",
+		"planet_2": "uranus"
+	},
+	{
+		"id": 68,
+		"zodiac_1": "libra",
+		"zodiac_2": "pisces",
+		"planet_1": "venus",
+		"planet_2": "neptune"
+	},
+	{
+		"id": 69,
+		"zodiac_1": "scorpio",
+		"zodiac_2": "sagittarius",
+		"planet_1": "pluto",
+		"planet_2": "jupiter"
+	},
+	{
+		"id": 70,
+		"zodiac_1": "scorpio",
+		"zodiac_2": "capricorn",
+		"planet_1": "pluto",
+		"planet_2": "saturn"
+	},
+	{
+		"id": 71,
+		"zodiac_1": "scorpio",
+		"zodiac_2": "aquarius",
+		"planet_1": "pluto",
+		"planet_2": "uranus"
+	},
+	{
+		"id": 72,
+		"zodiac_1": "scorpio",
+		"zodiac_2": "pisces",
+		"planet_1": "pluto",
+		"planet_2": "neptune"
+	},
+	{
+		"id": 73,
+		"zodiac_1": "sagittarius",
+		"zodiac_2": "capricorn",
+		"planet_1": "jupiter",
+		"planet_2": "saturn"
+	},
+	{
+		"id": 74,
+		"zodiac_1": "sagittarius",
+		"zodiac_2": "aquarius",
+		"planet_1": "jupiter",
+		"planet_2": "uranus"
+	},
+	{
+		"id": 75,
+		"zodiac_1": "sagittarius",
+		"zodiac_2": "pisces",
+		"planet_1": "jupiter",
+		"planet_2": "neptune"
+	},
+	{
+		"id": 76,
+		"zodiac_1": "capricorn",
+		"zodiac_2": "aquarius",
+		"planet_1": "saturn",
+		"planet_2": "uranus"
+	},
+	{
+		"id": 77,
+		"zodiac_1": "capricorn",
+		"zodiac_2": "pisces",
+		"planet_1": "saturn",
+		"planet_2": "neptune"
+	},
+	{
+		"id": 78,
+		"zodiac_1": "aquarius",
+		"zodiac_2": "pisces",
+		"planet_1": "uranus",
+		"planet_2": "neptune"
+	}
+]
