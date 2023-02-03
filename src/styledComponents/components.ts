@@ -8,7 +8,6 @@ export const PageContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 2rem;
 `;
 
 export const ErrorContainer = styled(PageContainer)`
@@ -18,7 +17,16 @@ export const ErrorContainer = styled(PageContainer)`
 export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
-	width: 95vw;
+	width: 100vw;
+`;
+
+export const ResponsiveContainer = styled.div`
+	display: flex;
+	flex-direction: row;
+	@media only screen and (max-width: 800px) {
+		flex-direction: column;
+		width: 100%;
+	}
 `;
 
 export const NavBar = styled(Container)`
@@ -26,10 +34,11 @@ export const NavBar = styled(Container)`
 	flex-direction: row;
 	justify-content: left;
 	align-items: center;
-	margin: 0rem;
-	width: 95vw;
+	margin-bottom: 0.5rem;
+	width: 100vw;
     @media only screen and (max-width: 800px) {
         flex-direction: column;
+		
     }
 `;
 export const LeftSide = styled(NavBar)`
@@ -47,15 +56,18 @@ export const RightSide = styled(NavBar)`
     }
 `;
 
-export const CountryCard = styled.div`
+export const Card = styled.div`
 	display: flex;
 	flex-direction: row;
 	color: ${(props) => props.theme.colors.text};
 	background-color: ${(props) => props.theme.colors.main};
-	margin-bottom: 0.4rem;
+	margin-top: 1rem;
 	padding: 0.5rem 1rem;
 	border-radius: 0.2rem;
 	text-align: left;
+	@media only screen and (max-width: 800px) {
+		flex-direction: column;
+	}
 `;
 
 export const Header = styled.h2`
@@ -65,20 +77,22 @@ export const Header = styled.h2`
 	padding: 0.5rem;
 	width: 100vw;
 	margin: 0;
+	text-align: center;
+	margin-bottom: 0.5rem;
 `;
 
 export const StyledSpan = styled.span`
 	display: flex;
 	flex-direction: column;
 	text-size: 1.5rem;
-	margin: 0;
+	margin: 0.2rem;
 `;
 
 export const Field = styled.span`
 	margin-right: 2rem;
 `;
 
-export const CountryName = styled.h4`
+export const CardName = styled.h4`
 	text-alignment: left;
 	justify-items: flex-start;
 	text-size: 2rem;
@@ -90,6 +104,13 @@ export const CountryDetails = styled.p`
 	text-size: 1.5rem;
 	margin: 0;
 	//margin-left: auto;
+`;
+
+export const SelectWrap = styled.div`
+	display: flex;
+	flex-direction: column;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
 `;
 
 export const Button = styled.button`
@@ -106,6 +127,12 @@ export const Button = styled.button`
         border: 0.15rem solid ${(props) => props.theme.colors.secondary};
         cursor: pointer;
 	}
+	@media only screen and (max-width: 800px) {
+		width: 100vw;
+		margin: 0;
+		border-radius: 0;
+	}
+
 `;
 
 export const ToggleButton = styled(Button)<ToggleProps>`
@@ -247,6 +274,7 @@ export const Paginator = styled.div`
 export const SelectContainer = styled.div`
 	display: inline-block;
 	position: relative;
+
 `;
 
 export const StyledSelect = styled.select`
@@ -254,7 +282,6 @@ export const StyledSelect = styled.select`
 	color: ${(props) => props.theme.colors.text};
 	font-size: 1rem;
 	font-weight: 500;
-	margin: 1em;
 	padding: 0.25em 1em;
 	border-radius: 0.2rem;
 	border: 0.15rem solid ${(props) => props.theme.colors.secondary};
@@ -279,7 +306,6 @@ export const StyledSelect = styled.select`
 	}
 
 	@media only screen and (max-width: 800px) {
-		width: 100%;
 	}
 `;
 

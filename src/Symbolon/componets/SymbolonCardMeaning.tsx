@@ -1,7 +1,8 @@
 import SymbolonMeanings from "../../json/symbolon_meanings.json";
 import { SymbolonMeaning } from "../../models/models";
+import { Card, CardName, StyledSpan } from "../../styledComponents/components";
 
-const SymbolonCardMeaning = ({ id }: { id: string }) => {
+const SymbolonCardMeaning = ({ id }: { id: string}) => {
 	const symbolonMeanings: Array<SymbolonMeaning> = SymbolonMeanings;
 
 	const symbolonCard: SymbolonMeaning | undefined = symbolonMeanings.find(
@@ -9,14 +10,14 @@ const SymbolonCardMeaning = ({ id }: { id: string }) => {
 	);
 
 	return (
-		<div>
-			<h4>{symbolonCard?.title}</h4>
-			<p>{symbolonCard?.keywords}</p>
-			<p>{symbolonCard?.meaning}</p>
-			<p>PROBLEM: {symbolonCard?.problem}</p>
-			<p>WAY: {symbolonCard?.way}</p>
-			<p>OUTCOME: {symbolonCard?.outcome}</p>
-		</div>
+		<Card>
+			<CardName>{symbolonCard?.title}</CardName>
+			<StyledSpan>{symbolonCard?.keywords}</StyledSpan>
+			<StyledSpan>{symbolonCard?.meaning}</StyledSpan>
+			<StyledSpan>PROBLEM: {symbolonCard?.problem}</StyledSpan>
+			<StyledSpan>WAY: {symbolonCard?.way}</StyledSpan>
+			<StyledSpan>OUTCOME: {symbolonCard?.outcome}</StyledSpan>
+		</Card>
 	);
 };
 

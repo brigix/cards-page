@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import symbolonKeys from "../../json/Symbolon-planets-zodiac.json";
 import { SymbolonKey } from "../../models/models";
+import {
+	ResponsiveContainer,
+	SelectWrap,
+} from "../../styledComponents/components";
 import CheckboxField from "./CheckboxField";
 import SelectDropDown from "./SelectDropDown";
 import SymbolonCardMeaning from "./SymbolonCardMeaning";
 
-const SymbolonCardSelection = () => {
+const OneCardSelection = () => {
 	const [selectedCard, setSelectedCard] = useState<SymbolonKey | undefined>(
 		undefined
 	);
@@ -21,16 +25,19 @@ const SymbolonCardSelection = () => {
 	};
 
 	return (
-		<div>
-			<CheckboxField />
-			<SelectDropDown
-				selectCard={selectCard}
-				cards={symbolonKeysConverted}
-				selectedCard={selectedCard}
-			/>
-			<SymbolonCardMeaning id={selectedCardID} />
-		</div>
+		<>
+			<ResponsiveContainer>
+				<SelectWrap>
+					<SelectDropDown
+						selectCard={selectCard}
+						cards={symbolonKeysConverted}
+						selectedCard={selectedCard}
+					/>
+				</SelectWrap>
+			</ResponsiveContainer>
+			{!!selectedCardID && <SymbolonCardMeaning id={selectedCardID} />}
+		</>
 	);
 };
 
-export default SymbolonCardSelection;
+export default OneCardSelection;

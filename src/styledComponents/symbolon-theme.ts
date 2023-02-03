@@ -2,9 +2,9 @@ import { DefaultTheme } from "styled-components";
 
 const symbolonTheme: DefaultTheme = {
 	colors: {
-		main: "#E1EEC7",
-		secondary: "#BBDC2F",
-		selected: "#61B136",
+		main: "#E8E4D6",
+		secondary: "#FCCD12",
+		selected: "#B58D3D",
 		text: "#161616",
 		light: "#FCFCFC",
 		error: "#B60000",
