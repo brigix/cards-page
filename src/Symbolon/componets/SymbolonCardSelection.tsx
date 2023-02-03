@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import symbolonKeys from "../../json/Symbolon-planets-zodiac.json";
 import { SymbolonKey } from "../../models/models";
+import CheckboxField from "./CheckboxField";
 import SelectDropDown from "./SelectDropDown";
 import SymbolonCardMeaning from "./SymbolonCardMeaning";
 
@@ -21,6 +22,7 @@ const SymbolonCardSelection = () => {
 
 	return (
 		<div>
+			<CheckboxField />
 			<SelectDropDown
 				selectCard={selectCard}
 				cards={symbolonKeysConverted}

@@ -13,9 +13,9 @@ const SymbolonCardMeaning = ({ id }: { id: string }) => {
 			<h4>{symbolonCard?.title}</h4>
 			<p>{symbolonCard?.keywords}</p>
 			<p>{symbolonCard?.meaning}</p>
-			<p>{symbolonCard?.problem}</p>
-			<p>{symbolonCard?.way}</p>
-			<p>{symbolonCard?.outcome}</p>
+			<p>PROBLEM: {symbolonCard?.problem}</p>
+			<p>WAY: {symbolonCard?.way}</p>
+			<p>OUTCOME: {symbolonCard?.outcome}</p>
 		</div>
 	);
 };
